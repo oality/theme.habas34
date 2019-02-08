@@ -6,6 +6,9 @@ Changelog
 1.0a2 (unreleased)
 ------------------
 
+- Add favicon
+  [bsuttor]
+
 - Add fontello icons.
   [bsuttor]
 
@@ -15,3 +18,4 @@ Changelog
 
 - Initial release.
   [bsuttor]
+
