@@ -1,62 +1,76 @@
 /* our custom styles */
 #center-and-left-area {
-    clear: both;
+  clear: both;
 }
+
 #faceted-form fieldset {
-    border-color: white;
-    border-width: 0px;
+  border-color: white;
+  border-width: 0;
 }
-#top-area, .informations{
+
+#top-area,
+.informations {
   min-height: 7em;
   height: auto;
   background: linear-gradient(-45deg, rgba(255, 255, 255, 0.1) 14%, transparent 14%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 64%, transparent 64%, transparent);
   background-color: #d9d7d7;
   background-size: 20px 20px;
 }
+
 #top-area legend {
   color: #777777;
 }
+
 .figures .row div span::before {
   padding-right: 1.5em;
 }
+
 #priceandrequest button {
   color: #fff;
   background-color: #dd693c;
   border-color: #b2b2b2;
   padding: 12px 24px;
 }
+
 #top-area .faceted-widget.faceted-criteria-widget {
-    box-sizing: border-box;
-    clear: left;
-    float: left;
-    margin-top: 1em;
-    padding-bottom: 0em;
-    padding-left: 1em;
-    padding-top: 0em;
-    position: relative;
-    width: 100%;
+  box-sizing: border-box;
+  clear: left;
+  float: left;
+  margin-top: 1em;
+  padding-bottom: 0;
+  padding-left: 1em;
+  padding-top: 0;
+  position: relative;
+  width: 100%;
 }
+
 .widget-fieldset legend {
-    border-bottom: 0px solid #e5e5e5;
-    width: auto;
-    padding-right: 1em;
+  border-bottom: 0 solid #e5e5e5;
+  // width: auto;
+  padding-right: 1em;
 }
+
 .intrangediv {
-  padding-left: 0px;
+  padding-left: 0;
 }
+
 #faceted-form .faceted-intrange-widget fieldset {
   padding: 10px;
 }
+
 #faceted-form .faceted-intrange-widget input {
   width: 150px;
 }
+
 .mosaic-tile-content .documentFirstHeading {
-  border-bottom: 0px solid #ffffff;
+  border-bottom: 0 solid #ffffff;
   text-align: center;
 }
+
 #faceted-form .widget-fieldset legend {
-    float: left;
+  float: left;
 }
+
 .pat-leaflet-faceted {
   min-height: 400px;
 }
@@ -77,19 +91,24 @@
   padding: 2em;
   display: flex;
 }
+
 .viewletprice {
   color: #ffffff;
   background-color: #6ac875;
   font-size: large;
 }
+
 .row {
   margin-top: 15px;
 }
-#gallery-photos, #files-viewlet {
+
+#files-viewlet,
+#gallery-photos {
   margin-top: 15px;
   margin-left: -15px;
   margin-right: -15px;
 }
+
 .regular-price {
   background-color: #6ac875;
   color: #ffffff;
@@ -116,9 +135,21 @@ body {
 }
 
 #portal-banner {
-  padding-left: 0;
-  padding-right: 0;
+  padding: 0;
+  // position: absolute;
+  // left: 0;
+  z-index: -1;
 }
+@media(min-width: 768px) {
+  #portal-banner {
+    height: 300px;
+  }
+}
+
+.plone-navbar {
+  margin-top: 0;
+}
+
 .faceted-intrange-widget .intrangediv {
   width: 100%;
 }
@@ -127,9 +158,11 @@ body {
     width: 48%;
   }
 }
-.faceted-intrange-widget{
+
+.faceted-intrange-widget {
   width: 50%;
 }
+
 .faceted-widget {
   position: relative;
   min-height: 1px;
@@ -143,6 +176,7 @@ body {
     width: 25%;
   }
 }
+
 .faceted-intrange-widget {
   width: 100%;
 }
@@ -151,35 +185,42 @@ body {
     width: 50%;
   }
 }
+
 .widget-fieldset-legend {
-    margin-bottom: 0.5em;
-    font-weight: bold;
+  margin-bottom: 0.5em;
+  font-weight: bold;
 }
+
 #content-core .bathrooms img {
   max-height: 66.6px;
 }
+
 .portaltype-real-estate #content header {
   min-height: 200px;
 }
+
 .fc-event-time {
   display: none;
 }
 
-.fc-event, .fc-agenda .fc-event-time, .fc-event a {
-    border-style: solid;
-    border-color: #cc4d33;
-    background-color: #dd693c;
-    color: #fff;
+.fc-agenda .fc-event-time,
+.fc-event,
+.fc-event a {
+  border-style: solid;
+  border-color: #cc4d33;
+  background-color: #dd693c;
+  color: #fff;
 }
+
 .fc-header-right {
   display: none;
 }
+
 #priceandrequest {
   padding: 2em;
   text-align: center;
   display: flex;
 }
-
 
 .figures {
   padding-top: 1em;
@@ -216,12 +257,6 @@ body #content-core {
   padding-left: 2em;
 }
 
-.portal-banner {
-  padding-top: 0;
-  padding-bottom: 0;
-  height: auto;
-}
-
 #content {
   padding-top: 2em;
 }
@@ -256,68 +291,75 @@ body #content-core {
 }
 
 .faceted-widget.faceted-layout-widget.section-affichage {
-    width: 100%;
-    min-height: 0;
-    margin: 0 0 0 0;
-    box-sizing: border-box;
-    padding-top: 0em;
-    padding-right: 0em;
-    padding-bottom: 1em;
-    padding-left: 0em;
+  width: 100%;
+  min-height: 0;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0 0 1em;
 }
+
 .faceted-widget.faceted-layout-widget.section-affichage .widget-fieldset legend {
   display: none;
 }
+
 #faceted-form .faceted-widget.faceted-layout-widget.section-affichage .widget-fieldset {
-  margin: 0 0 0 0;
+  margin: 0;
   padding: 0;
 }
-#content #top-area .faceted-widget.faceted-layout-widget.section-affichage ul  {
+
+#content #top-area .faceted-widget.faceted-layout-widget.section-affichage ul {
   margin-bottom: 10px;
   padding: 0;
 }
+
 #content #top-area .faceted-widget.faceted-layout-widget.section-affichage ul li label {
-    background: #eee;
-    padding-top: 0.25em;
-    box-sizing: border-box;
-    display: inline-block;
-    padding-bottom: 0.6em;
-    padding-left: 1em;
-    padding-top: 0.5em;
-    margin: 0;
-    width: 50%;
-    color: #000000;
-    float: left;
+  background: #eee;
+  padding-top: 0.25em;
+  box-sizing: border-box;
+  display: inline-block;
+  padding-bottom: 0.6em;
+  padding-left: 1em;
+  padding-top: 0.5em;
+  margin: 0;
+  width: 50%;
+  color: #000000;
+  float: left;
 }
+
 #content #top-area .faceted-widget.faceted-layout-widget.section-affichage ul li label:hover {
-    background: #ccc;
+  background: #ccc;
 }
+
 #content #top-area .faceted-widget.faceted-layout-widget.section-affichage ul li label.checked {
   background: #ccc;
 }
+
 .eea-preview-items .figures div::before {
-    padding-right: 2em;
+  padding-right: 2em;
 }
+
 .faceted-widget.faceted-layout-widget.section-affichage label[title="Vue cartographique"]::before {
-    content: "\e837";
-    font-family: fontello;
-    margin-right: 0.5em;
+  content: "\e837";
+  font-family: fontello;
+  margin-right: 0.5em;
 }
 
 .eea-preview-items .figures {
-    padding-top: 0.2em;
-    padding-bottom: 0.2em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
 }
+
 #content #top-area .faceted-widget.faceted-layout-widget.section-affichage input {
-    display: none;
+  display: none;
 }
+
 .widget-fieldset ul li label {
-    cursor: pointer;
-    display: block;
-    font-size: 12px;
-    padding: 0.3em 1em 0em 2.2em;
-    text-transform: uppercase;
-    text-align: center;
+  cursor: pointer;
+  display: block;
+  font-size: 12px;
+  padding: 0.3em 1em 0 2.2em;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .card {
@@ -591,4 +633,73 @@ body #content-core {
     display: inline-block;
     width: 100%;
   }
+}
+
+#portal-logo {
+  display: none;
+  background-color: #fafafa1c;
+  margin-top: 15px;
+  border-radius: 25px;
+  padding: 0 5px 5px;
+}
+/* banner */
+@media (min-width: 768px) {
+  #portal-logo {
+    display: block;
+  }
+}
+
+.habas-banner {
+  width: 100%;
+  position: absolute;
+  margin-top: 0;
+  z-index: -1;
+}
+
+#portal-header {
+  margin-top: 0;
+}
+
+#mainnavigation-wrapper {
+  padding-top: 15%;
+}
+@media (min-width: 1200px) {
+  #mainnavigation-wrapper {
+    padding-top: 17%;
+  }
+}
+
+.portlet .portletHeader.titleless {
+  height: 0;
+  padding: 0;
+}
+
+.frontend .tileItem h2 {
+  font-size: 18px;
+}
+
+.mosaic-grid-row-dark .mosaic-width-half.mosaic-position-leftmost {
+  background-color: #007bb0;
+  color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.mosaic-grid-row-dark .mosaic-width-half.mosaic-position-leftmost a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+.mosaic-grid-row-dark .mosaic-grid-cell.mosaic-width-half.mosaic-position-half {
+  background-color: #5fc9f7;
+  color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.mosaic-grid-row-dark .mosaic-grid-cell.mosaic-width-half.mosaic-position-half a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+.mosaic-grid-row-dark {
+  height: 100%;
+  padding: 0px;
+  background-color: #007bb0;
 }
