@@ -7,7 +7,9 @@
   border-color: white;
   border-width: 0;
 }
-
+#top-area {
+  overflow: hidden;
+}
 #top-area,
 .informations {
   min-height: 7em;
@@ -204,8 +206,12 @@ body {
 }
 @media(min-width: 768px) {
   .faceted-widget {
+    /*width: 33.3%;*/
     width: 25%;
   }
+}
+.faceted-text-widget .searchButton {
+  display: None;
 }
 
 .faceted-intrange-widget {
